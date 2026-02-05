@@ -1,0 +1,28 @@
+Command 1: vi bg_move.sh
+Output: vi editor opens
+Explanation: Creates a new shell script file named `bg_move.sh`
+
+Command 2: mkdir test_move
+Output: In screenshot
+Explanation: Creates a new directory new_move
+
+Command 3: cd test_move
+Output: In screenshot
+Explanation: changes current directory to test_move
+
+Command 4: touch file{1..5}.txt
+Output: In screenshot
+Explanation: used to create 5 empty txt files file1.txt to file5.txt
+
+Command 5: cp ../bg_move.sh .
+Output: In screenshot
+Explanation: copies bg_move from parent directory to current directory test_move
+
+Command 6: ./bg_move.sh .
+Output: In screenshot
+Explanation: runs the script and moves files to backup directory. displays the process ID for parent and each file moving get its background process ID. 
+             it displays when the process is complete
+
+Command 7: ls -la backup/
+Output: In screenshot
+Explanation: shows detailed listing including permissions, ownership, and timestamp of the files that are moved.
