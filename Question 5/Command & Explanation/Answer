@@ -1,0 +1,19 @@
+Command 1: vi sync.sh
+Output: vi editor opens
+Explanation: Creates a new shell script file named `sync.sh`.
+
+Command 2: mkdir -p dirA dirB
+Output: Creates two directories named dirA and dirB
+Explanation: The `-p` flag ensures no error if directories already exist.
+
+Command 3: Echo  
+Output: In screenshot
+Explanation: Used to add contents in txt file for both dirA and dirB and create txt files in dirA and dirB
+
+Command 4: chmod +x sync.sh
+Explanation: makes the script executable
+
+Command 5: ./sync.sh
+Output: In screenshot
+Explanation: Runs the script. displays the file in each directory and compares the contents and displays if content match or not
+
