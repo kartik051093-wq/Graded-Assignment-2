@@ -1,0 +1,12 @@
+Command 1: vi signal_handler.sh
+Output: vi editor opens
+Explanation: Creates a new shell script file named `signal_handler.sh`.
+
+Command 2: gcc -o signal_handler signal_handler.c
+Output: In screenshot
+Explanation: Creates executable named signal_handler
+
+Command 3: ./signal_handler
+Output: In screenshot
+Explanation: parent run in loop until signal is received after 5 second child 1 send SIGTERM and parents sets the flag to stop loop. 
+             while parent is exiting child 2 sends SIGINT after 10 seconds. Parent waits for both children to prevent zombies. 
