@@ -24,3 +24,7 @@ Explanation: Testing script with directory input
 Command 7: ./analyze.sh
 Output: In screenshot
 Explanation: Testing error handling by passing no arguments
+
+Command 8: ./analyze.sh nonexistent.txt
+Output: In screenshot
+Explanation: Non existent file error handling
