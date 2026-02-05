@@ -1,0 +1,20 @@
+Command 1: vi analyze.sh
+Output: vi editor opens
+Explanation: Creates a new shell script file named `analyze.sh`.
+
+Command 2: chmod +x analyze.sh
+Explanation: Makes the script executable
+
+Command 3: echo 
+Output: Creates a file with written text
+Explanation: A file is created using echo command and text is written in the file
+
+Command 4: ./analyze.sh testfile.txt
+Output: In screenshot
+Explanation: Testing the script for a given file
+
+Command 5: mkdir and touch
+Output: In Screenshot
+Explanation: Directory and files created
+
+Command 6: 
